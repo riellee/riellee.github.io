@@ -1,7 +1,8 @@
+/*
 h1 { text-align:center; }
 div { font-size: 30px; text-align: center; }
 
-#main { display: grid; grid-template-columns: 3fr 1fr; }
+#main { display: grid; grid-template-columns: 1fr 3fr; }
 #main #contents {
     min-height: 500px;
     background-color:#00ffff;
@@ -10,9 +11,9 @@ div { font-size: 30px; text-align: center; }
 #main #sidebar { min-height: 500px; background-color: #00bfff; }
 #footer { margin-top: 10px; background-color: #00bfff; }
 
-/* 가로 600px 일때 적용 */
+!* 가로 600px 일때 적용 *!
 @media (max-width:600px) {
     #main { display: block; }
     #main #contents { margin-bottom: 10px; margin-right: 0px; }
     #main #sidebar { min-height: 0; }
-}
+}*/
